@@ -1,4 +1,4 @@
-package easy;
+package medium;
 
 class TreeNode {
     int val;
@@ -7,7 +7,7 @@ class TreeNode {
     TreeNode(int x) { val = x; }
 }
 
-public class LCA {
+public class LCAinBST {
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(6);
