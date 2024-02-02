@@ -1,6 +1,6 @@
 package medium;
 
-public class LCAinBT1 {
+public class LCAinBT2 {
 
     public static boolean a;
     public static boolean b;
