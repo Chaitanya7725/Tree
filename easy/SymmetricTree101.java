@@ -22,7 +22,7 @@ public class SymmetricTree101 {
         if(p == null && q == null) return true;
         if(p == null || q == null) return false;
 
-        return p.val == q.val && check(p.left,q.right);
+        return p.val == q.val && check(p.left,q.right) && check(p.right,q.left) ;
     }
 
 }
